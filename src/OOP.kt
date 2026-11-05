@@ -20,12 +20,13 @@ class Dog{ //class is NOT a method so its not inside brackets
 fun main() {
     //how you create an object in OOP
     //objects are represented using VARIABLES
-    var myDog = Dog(
+    var myDog = Dog()
+    myDog.bark()
 
-    )
-    var myDog2 = Dog(
 
-    )
+    var myDog2 = Dog()
+
+    var myDog3 = Dog()
 }
 
 
